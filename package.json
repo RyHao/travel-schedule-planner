@@ -1,0 +1,18 @@
+{
+  "name": "travel-schedule-planner",
+  "version": "1.0.0",
+  "description": "Travel Schedule Planner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "./node_modules/gitbook-cli/bin/gitbook.js serve",
+    "build": "./node_modules/gitbook-cli/bin/gitbook.js build"
+  },
+  "repository": "https://github.com/RyHao/travel-schedule-planner.git",
+  "author": "RyHao <kinghao914@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
